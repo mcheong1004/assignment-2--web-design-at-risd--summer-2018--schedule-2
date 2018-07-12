@@ -9,3 +9,11 @@ body {
 
    /* background: #ddd4d5 url('../img/children-sky.jpg') no-repeat fixed 30% 30% / cover; */
 }
+h1{
+   color: #FAF2F2;
+   text-align: right;
+   font-family: Bauhaus, sans-serif;
+   font-style: italic;
+   font-size: 40px;
+
+}
