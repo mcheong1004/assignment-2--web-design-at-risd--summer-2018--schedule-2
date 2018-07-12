@@ -1,6 +1,11 @@
 body {
    background-color: #b7d9e2;
 }
-body {
-   height: 600px;
+
+div {
+   height: 300px;
+}
+
+div:nth-child(1) {
+   background-color: red;
 }
