@@ -3,31 +3,30 @@
    padding: 0;
 }
 
-/* section {
-   height: 300px;
+section {
+   height: 110vh;
 }
 
 section:nth-child(1) {
-   background-color: red;
+   background-image: url(../img/armand-khoury-639056-unsplash.jpg);
+   background-attachment: scroll;
+   background-size: cover;
 }
 
 section:nth-child(2) {
-   background-color: green;
+   background:
+   linear-gradient(to top,rgb(0, 0, 0),rgb(220, 220, 220))transparent;
 }
 
-section:nth-child(3) {
+/* section:nth-child(3) {
    background-color: blue;
-}
-
-section:nth-child(4) {
-   background-color: rebeccapurple;
-}
+} */
 
 section div {
-   width: 90%;
-   margin: auto;
+   width: 60%;
+   margin:auto;
 }
 
 p {
    margin: auto;
-} */
+}
