@@ -8,7 +8,7 @@ body {
 }
 
 div {
-   font-size: 2rem;
+   font-size: 3rem;
 }
 
 section {
@@ -16,12 +16,12 @@ section {
 }
 
 section div {
-   width:80%;
+   width:50%;
    margin: auto;
 }
 
 section:nth-child(1) {
-   height: 800px;
+   height: 733px;
    display: flex;
    text-align: center;
 }
