@@ -17,3 +17,6 @@ h1{
    font-size: 40px;
 
 }
+.container {
+  display: flex; /* or inline-flex */
+}
