@@ -4,7 +4,12 @@
 }
 
 body {
-   font-family: sans-serif;
+   font-family: serif;
+}
+
+div h1, h2, p {
+   width:80%;
+   margin: auto;
 }
 
 section:nth-child(1) {
