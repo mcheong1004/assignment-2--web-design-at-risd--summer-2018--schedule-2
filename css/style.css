@@ -7,16 +7,16 @@ body {
    font-family: 'Libre Baskerville', serif;
 }
 
-div h1, h2, p {
+section {
+   background-color: #CAE7FF;
+}
+
+section div {
    width:80%;
    margin: auto;
 }
 
 section:nth-child(1) {
-   height: 800px;
+   height: 780px;
    display: flex;
-}
-
-section {
-   background-color: #CAE7FF;
 }
