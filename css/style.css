@@ -21,6 +21,14 @@ section {
    height: 300px;
    display: flex;
 }
+section:nth-child(1) {
+   background-color: rgb(1,5,5);
+   background-image: url('../img/boarders-of-canada.jpg');
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: top;
+   background-size: 100%, auto;
+}
 }
 .container {
   display: flex; /* or inline-flex */
