@@ -7,6 +7,10 @@ body {
    font-family: 'Libre Baskerville', serif;
 }
 
+div {
+   font-size: 2rem;
+}
+
 section {
    background-color: #CAE7FF;
 }
@@ -19,4 +23,5 @@ section div {
 section:nth-child(1) {
    height: 800px;
    display: flex;
+   text-align: center;
 }
