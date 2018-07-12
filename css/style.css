@@ -17,6 +17,11 @@ h1{
    font-size: 40px;
 
 }
+section {
+   height: 300px;
+   display: flex;
+}
+}
 .container {
   display: flex; /* or inline-flex */
 }
