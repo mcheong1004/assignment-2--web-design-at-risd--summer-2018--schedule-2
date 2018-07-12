@@ -29,6 +29,12 @@ section:nth-child(1) {
    background-position: top;
    background-size: 100%, auto;
 }
+section:nth-child(2) {
+    background-image: linear-gradient(blue, red);
+}
+section:nth-child(3) {
+   background-image: url('../img/boarders-of-canada.jpg');
+
 }
 .container {
   display: flex; /* or inline-flex */
