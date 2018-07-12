@@ -17,6 +17,6 @@ section div {
 }
 
 section:nth-child(1) {
-   height: 900px;
+   height: 800px;
    display: flex;
 }
