@@ -4,5 +4,14 @@
 }
 
 body {
-   background-color: #b7d9e2;
+   font-family: sans-serif;
+}
+
+section:nth-child(1) {
+   height: 800px;
+   display: flex;
+}
+
+section {
+   background-color: teal;
 }
