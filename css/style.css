@@ -1,0 +1,157 @@
+html {
+   font-size: 30px;
+   background-color: black
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   color: white
+}
+
+section {
+     height: 700px;
+  }
+
+  section:nth-child(1) {
+     background-color: black;
+     margin: auto;
+     padding: 200px;
+     height: 500px;
+  }
+
+    h1{
+     font-size: 90px;
+     text-align: center;
+
+  }
+    h2{
+      font-size: 30px;
+      text-align: right;
+      margin: auto;
+      padding: 10px;
+    }
+    h3{
+      margin: 0;
+      padding:0;
+      font-size: 33px;
+      text-align:justify;
+    }
+
+    div:nth-child(1) {
+      margin: auto;
+      padding: 20px;
+      float: left;
+    line-height:40px }
+
+
+
+    div:nth-child(2) {
+      margin: auto;
+      padding: 20px;
+      float: right;
+
+     }
+
+
+
+  section:nth-child(2) {
+     background-color: black;
+     margin: auto;
+     padding: 40px;
+     font-size: 30px;
+     line-height: 45px;
+     height: 500px;
+   }
+
+
+  section:nth-child(3) {
+    background-color: black;
+    margin: auto;
+    padding: 40px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+    p:nth-child(1)
+     {
+      margin: auto;
+      padding: 40px;
+       float: left;
+       width: 600px;
+
+     }
+     div:nth-child(3) {
+       margin: auto;
+       padding: 40px;
+        float: right;
+      }
+      section:nth-child(4) {
+        background-color: black;
+        margin: auto;
+        padding: 40px;
+        font-size: 20px;
+        line-height: 25px;
+      }
+      p:nth-child(2)
+       {
+        margin: auto;
+        padding: 40px;
+         float: left;
+         width: 600px;
+         border: 3px;
+         border-radius: 10%;
+         border-color: white;
+       }
+       div:nth-child(4) {
+         margin: auto;
+         padding: 40px;
+          float: right;
+        }
+        section:nth-child(5) {
+          background-color: black;
+          margin: auto;
+          padding: 40px;
+          font-size: 20px;
+          line-height: 25px;
+        }
+        p:nth-child(3)
+         {
+          margin: auto;
+          padding: 40px;
+           float: right;
+           width: 600px;
+           border: 3px;
+           border-radius: 10%;
+           border-color: white;
+
+
+         }
+         div:nth-child(5) {
+           margin: auto;
+           padding: 40px;
+            float: left;
+          }
+          section:nth-child(6) {
+            background-color: gray;
+            margin: auto;
+            padding: 40px;
+            font-size: 20px;
+            line-height: 25px;
+            border-radius:3px;
+            border-color: white;
+            text-align: center;
+            height: 400px;
+          }
+          p:nth-child(4)
+           {
+            margin: auto;
+            padding: 40px;
+            border: 3px;
+            border-radius: 10%;
+            border-color: white;
+            text-align: center;
+            height: 400px;
+            float: right;
+
+           }
+        
