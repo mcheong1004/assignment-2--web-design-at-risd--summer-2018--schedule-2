@@ -1,0 +1,75 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+section {
+   height: 1000px;
+}
+
+section:nth-child(1) {
+   background:
+   url('../img/cover.jpg') no-repeat fixed 50% 50% / cover;
+}
+
+section:nth-child(2) {
+   background:
+   url('../img/second page.jpg') no-repeat fixed 50% 50% / cover;
+}
+
+section:nth-child(3) {
+   background:
+   url('../img/third page.jpg') no-repeat fixed 50% 50% / cover;
+}
+
+section:nth-child(4) {
+   height: 3550px;
+   background:
+   url('../img/inverted-hero-BG.jpg') no-repeat fixed 50% 50% / cover;
+   font: 400 1.2rem / 3 'Roboto', sans-serif;
+}
+
+p{
+   /* border: 10px solid black; */
+   padding: 20px;
+   /* border-radius: 0%; */
+   margin: auto;
+   display: inline-block;
+}
+
+
+section div {
+   width: 90%;
+   margin: auto;
+}
+
+p {
+   margin-left: 18%;
+   margin-right: 18%;
+}
+
+p:nth-child(1) {
+   margin-top:15%;
+}
+
+p:nth-child(6){
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+p:nth-child(6):hover {
+   font-size: 1.5rem;
+   opacity: 0.3;
+   transition-duration: 1s;
+}
+
+p:nth-child(8){
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+p:nth-child(8):hover {
+   font-size: 1.5rem;
+   opacity: 0.3;
+   transition-duration: 1s;
+}
