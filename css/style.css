@@ -1,0 +1,112 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 20px;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   line-height: 1.5;
+}
+
+div{
+   color: white;
+}
+
+p{
+   color: white;
+}
+
+h1{
+   font-family: 'Josefin-Sans', sans-serif;
+   color: white;
+   font-weight: 400;
+   font-size: 6rem;
+}
+
+h2{
+   font-family: 'Josefin-Sans', sans-serif;
+   color: white;
+   font-weight: 200;
+}
+
+h3{
+   font-family: 'Josefin-Sans', sans-serif;
+   color: white;
+   font-weight: 400;
+   font-size: 1.4rem;
+}
+
+h4{
+   font-family: 'Josefin-Sans', sans-serif;
+   color: white;
+   font-weight: 100;
+}
+
+h5{
+   font-family: 'Josefin-Sans', sans-serif;
+   color: white;
+   font-weight: 100;
+   font-size: 2rem;
+}
+
+h6{
+   font-family: 'Josefin-Sans', sans-serif;
+   color: white;
+   font-weight: 100;
+   font-size: 3rem;
+}
+
+section {
+   height: 900px;
+   display: flex;
+}
+
+section:nth-child(1) {
+   background: #ddd4d5 url('../img/maxresdefault.png') no-repeat fixed 50% 50% / cover;
+   font-size: 3rem;
+   text-align: center;
+}
+
+section:nth-child(2) {
+   background-color: black;
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+section:nth-child(3) {
+   background: #ddd4d5 url('../img/DawnOfMidi_PressPhotoByFalkwyndeGoyeneche_1-1-e1466725920205-1600x1132.png') no-repeat fixed 50% 50% / cover;
+   font-size: 2rem;
+   text-align: center;
+}
+
+section:nth-child(4) {
+   background-color: black;
+}
+
+section:nth-child(5) {
+   background: #ddd4d5 url('../img/DawnOfMidi_PressPhotoByFalkwyndeGoyeneche_2-e1452624438616.png') no-repeat fixed 50% 50% / cover;
+}
+
+section:nth-child(6) {
+   background-color: black;
+}
+
+section:nth-child(7) {
+   background: #ddd4d5 url('../img/maxresdefault.png') no-repeat fixed 50% 50% / cover;
+   font-size: 3rem;
+   text-align: center;
+}
+
+section div {
+   align-items: center;
+   width: 70%;
+   margin: auto;
+}
+
+p {
+   margin: auto;
+}
