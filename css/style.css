@@ -48,7 +48,8 @@ section:nth-child(1) {
 
 }
 section:nth-child(2) {
-    background-image: linear-gradient(blue, red);
+    height: 30px;
+    background-image: linear-gradient(rgb(131,205,169), rgb(1,5,5));
 }
 section:nth-child(3) {
    background-image: url('../img/boarders-of-canada.jpg');
