@@ -8,13 +8,14 @@ body {
 }
 
 section {
-     height: 500px;
+     height: 800px;
   }
 
   section:nth-child(1) {
      background-color: black;
      margin: auto;
      padding: 200px
+
 
   }
 
@@ -40,6 +41,11 @@ section {
       padding: 20px;
        float: left;
      }
+    div:nth-child(1) {
+      margin: auto;
+      padding: 20px;
+       float: right;
+     }
      div:nth-child(2) {
        margin: auto;
         float: right;
@@ -53,18 +59,65 @@ section {
      padding: 20px;
      font-size: 30px;
      line-height: 35px;
+     height: 500px;
    }
 
 
   section:nth-child(3) {
-     background-color: green;
-     margin: auto;
-   }
-
-    h4{ margin: auto;
-      padding: 20px;
-      font-size: 10px;
-      line-height: 35px;
-
-
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 25px;
   }
+
+    p:nth-child(1)
+     {
+      margin: auto;
+      padding: 20px;
+       float: left;
+       width: 600px;
+     }
+     div:nth-child(4) {
+       margin: auto;
+       padding: 20px;
+        float: right;
+      }
+      section:nth-child(4) {
+        background-color: black;
+        margin: auto;
+        padding: 20px;
+        font-size: 20px;
+        line-height: 25px;
+      }
+      p:nth-child(2)
+       {
+        margin: auto;
+        padding: 20px;
+         float: left;
+         width: 600px;
+       }
+       div:nth-child(4) {
+         margin: auto;
+         padding: 20px;
+          float: right;
+        }
+        section:nth-child(5) {
+          background-color: black;
+          margin: auto;
+          padding: 20px;
+          font-size: 20px;
+          line-height: 25px;
+        }
+        p:nth-child(3)
+         {
+          margin: auto;
+          padding: 20px;
+           float: right;
+           width: 600px;
+         }
+         div:nth-child(5) {
+           margin: auto;
+           padding: 20px;
+            float: left;
+          }
