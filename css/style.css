@@ -59,4 +59,12 @@ section {
   section:nth-child(3) {
      background-color: green;
      margin: auto;
+   }
+
+    h4{ margin: auto;
+      padding: 20px;
+      font-size: 10px;
+      line-height: 35px;
+
+
   }
