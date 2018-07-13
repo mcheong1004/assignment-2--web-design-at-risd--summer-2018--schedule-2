@@ -73,4 +73,7 @@ section:nth-child(4) {
   grid-row-end: 3;
 }
 
+.blur {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
