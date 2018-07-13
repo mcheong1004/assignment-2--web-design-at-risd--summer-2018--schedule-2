@@ -34,15 +34,23 @@ div:nth-child(4) {
 
 div:nth-child(5) {
    background-color: white;
+   opacity: 0.95;
+   margin: 80px;
 }
+
+div:nth-child(6) {
+   background-color: white;
+   /* opacity: 0.9; */
+ }
 
 h1 {
   /* padding-top: 50vh; */
+  margin-left: 200px;
   line-height: 100vh;
   font-variant: normal;
   font-size: 90px;
   font-weight: 600;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 6px;
   color: white;
 }
@@ -119,9 +127,46 @@ ul{
 
 }
 
+div:nth-child(5) p{
+   padding-top: 80px;
+   margin: 0 500px 10px 180px;
+   /* border: 3px solid green; */
+   color: black;
+   font-size: 14px;
+   font-weight:400;
+   letter-spacing:1px;
+   line-height:1.4;
+ }
 
+ section{
+    margin: 0px -400px 0px 440px;
+ }
 
+cite{
+  margin: 0 620px 20px 180px;
+  font-size: 13px;
+  font-weight: 200;
+  letter-spacing:1px;
+  line-height:1;
 
+}
+div:nth-child(6) p{
+   padding-top: 100px;
+   margin: 0px 190px 20px 700px;
+   /* border: 3px solid green; */
+   color: black;
+   font-size: 15px;
+   font-weight: 200;
+   letter-spacing:1.2px;
+   line-height:1.4;
+ }
+
+ div:nth-child(6) img{
+           /* border: 3px solid green; */
+           margin: 150px 700px 0px 200px;
+           position: absolute;
+           overflow:scroll;
+         }
 
 
 
