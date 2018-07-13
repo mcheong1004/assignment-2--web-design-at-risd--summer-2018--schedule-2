@@ -22,6 +22,12 @@ h2{
    font-style: italic;
 
 }
+p{
+   color: #FAF2F2;
+   text-align: center;
+   font-family: Bauhaus, sans-serif;
+   font-style: italic;
+}
 section {
    height: 300px;
    display: flex;
