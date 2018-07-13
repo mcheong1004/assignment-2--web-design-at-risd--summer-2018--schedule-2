@@ -1,0 +1,130 @@
+/* body {
+   /* The following six declarations are equivalent to the last declaration in this rule. */
+   /* background-color: rgb(1,5,5); */
+   /* background-image: url('../img/boarders-of-canada.jpg');
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: top;
+   background-size: 100%, auto; */
+
+   /* background: #ddd4d5 url('../img/children-sky.jpg') no-repeat fixed 30% 30% / cover;
+   }*/
+
+h1{
+   color: #FAF2F2;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   text-align: right;
+   font-family: Bauhaus, sans-serif;
+   font-style: italic ;
+   font-weight: 700; /* Initial/default: 400 */
+   font-size: 40px;
+   padding: 10px;
+   margin: 20px;
+}
+h2{
+   color: #FAF2F2;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   text-align: right;
+   font-family: Bauhaus, sans-serif;
+   font-style: italic;
+   font-size: 30px;
+   padding: 10px;
+   margin: 20px;
+
+
+}
+p{
+   color: #FAF2F2;
+   text-align: left;
+   font-family: Bauhaus, sans-serif;
+   font-kerning: auto;
+   line-height: 1.5rem;
+   /* padding: 20px; */
+}
+/* .center {
+    margin: auto;
+    width: 25%;
+    padding: 10%;
+} */
+
+
+section:nth-child(1) {
+   height: 900px;
+   background-color: rgb(1,5,5);
+   background-image: url('../img/boarders-of-canada.jpg');
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: top;
+   background-size: cover;
+
+}
+section:nth-child(2) {
+    height: 30px;
+    background-image: linear-gradient(rgb(131,205,169), rgb(1,5,5));
+}
+section:nth-child(3) {
+   background-image: url('../img/dark-sky-star.jpg');
+   color: rgb(239, 255,247);
+    height: 500px;
+}
+section:nth-child(4) {
+   background-image: url('../img/dark-sky-star.jpg');
+   height: 1850px;
+   color: rgb(239, 255,247);
+   padding: 150px;
+
+}
+.container-head{
+
+   display: grid;
+   grid-template-columns: auto 60% ;
+   grid-template-rows: 60%  auto ;
+}
+.item-head1{
+   grid-column-start: 1 ;
+   grid-column-end:2;
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+.item-head2{
+   grid-column-start: 2 ;
+   grid-column-end:3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+.item-head3{
+   grid-column-start: 2 ;
+   grid-column-end:3;
+   grid-row-start: 2;
+   grid-row-end: 3;
+}
+.container {
+
+   display: grid;
+   grid-template-columns: 40% auto 25% ;
+   grid-template-rows: 100px  auto 25%;
+}
+
+.item {
+  grid-column-start: 2 ;
+  grid-column-end:3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.num {
+   color: #FAF2F2;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   font-size: 30px;
+   padding: 10px;
+}
+
+.highlight {
+   color: rgb(131,205,169);
+   font-family: Bauhaus, sans-serif;
+   font-size: 18px;
+
+}
+.virticaltext{
+   text-orientation: sideways;
+}
