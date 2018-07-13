@@ -62,5 +62,8 @@ section:nth-child(4) {
    color: rgb(239, 255,247);
 }
 .container {
-  display: flex; /* or inline-flex */
+   grid-template-columns: auto 60% ;
+   grid-template-rows: 60%%  auto;
+}
+
 }
