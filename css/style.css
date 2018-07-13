@@ -35,8 +35,7 @@ p{
 }
 
 section {
-   height: 300px;
-   display: flex;
+   display: fixed;
 }
 section:nth-child(1) {
    background-color: rgb(1,5,5);
