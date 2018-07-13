@@ -56,6 +56,10 @@ section:nth-child(3) {
    color: rgb(239, 255,247);
     height: 500px;
 }
+section:nth-child(4) {
+   background-image: url('../img/dark-sky-star.jpg');
+   height: 1300px;
+   color: rgb(239, 255,247);
 }
 .container {
   display: flex; /* or inline-flex */
