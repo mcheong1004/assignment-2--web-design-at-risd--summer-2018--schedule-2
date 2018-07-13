@@ -37,7 +37,7 @@ section {
     }
     div:nth-child(1) {
       margin: auto;
-      padding: 200px;
+      padding: 20px;
        float: left;
      }
      div:nth-child(2) {
@@ -50,7 +50,7 @@ section {
   section:nth-child(2) {
      background-color: black;
      margin: auto;
-     padding: 200px;
+     padding: 20px;
      font-size: 30px;
      line-height: 35px;
    }
