@@ -38,12 +38,14 @@ section {
    display: fixed;
 }
 section:nth-child(1) {
+   height: 900px;
    background-color: rgb(1,5,5);
    background-image: url('../img/boarders-of-canada.jpg');
    background-repeat: no-repeat;
    background-attachment: scroll;
    background-position: top;
-   background-size: 100%, auto;
+   background-size: cover;
+
 }
 section:nth-child(2) {
     background-image: linear-gradient(blue, red);
