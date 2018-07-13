@@ -108,7 +108,13 @@ div h5 {
    text-align: right;
    width: 50%;
    padding-left: 25px;
-   align-content: space-between;
+}
+
+img {
+   border-radius: 50%;
+   width: 50%;
+   padding-left: 25px;
+   padding-right: 25px;
 }
 
 div h6 {
