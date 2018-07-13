@@ -1,0 +1,62 @@
+html {
+   font-size: 30px;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   color: white
+}
+
+section {
+     height: 500px;
+  }
+
+  section:nth-child(1) {
+     background-color: black;
+     margin: auto;
+     padding: 200px
+
+  }
+
+    h1{
+     font-size: 90px;
+     text-align: center;
+
+  }
+    h2{
+      font-size: 30px;
+      text-align: right;
+      margin: auto;
+      padding: 10px;
+    }
+    h3{
+      margin: 0;
+      padding:0;
+      font-size: 15px;
+      text-align:justify;
+    }
+    div:nth-child(1) {
+      margin: auto;
+      padding: 200px;
+       float: left;
+     }
+     div:nth-child(2) {
+       margin: auto;
+        float: right;
+      }
+
+
+
+  section:nth-child(2) {
+     background-color: black;
+     margin: auto;
+     padding: 200px;
+     font-size: 30px;
+     line-height: 35px;
+   }
+
+
+  section:nth-child(3) {
+     background-color: green;
+     margin: auto;
+  }
