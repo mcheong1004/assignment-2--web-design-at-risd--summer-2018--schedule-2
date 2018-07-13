@@ -97,6 +97,8 @@ section:nth-child(6) {
 
 section:nth-child(7) {
    background: #ddd4d5 url('../img/maxresdefault.png') no-repeat fixed 50% 50% / cover;
+   font-size: 3rem;
+   text-align: center;
 }
 
 section div {
