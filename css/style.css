@@ -28,6 +28,12 @@ p{
    font-family: Bauhaus, sans-serif;
    font-style: italic;
 }
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
 section {
    height: 300px;
    display: flex;
