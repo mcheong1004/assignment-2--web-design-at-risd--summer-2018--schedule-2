@@ -9,7 +9,7 @@ body {
 }
 
 section {
-     height: 800px;
+     height: 700px;
   }
 
   section:nth-child(1) {
@@ -42,6 +42,7 @@ section {
       padding: 20px;
       float: left;
     line-height:40px }
+
 
 
     div:nth-child(2) {
@@ -97,6 +98,9 @@ section {
         padding: 40px;
          float: left;
          width: 600px;
+         border: 3px;
+         border-radius: 10%;
+         border-color: white;
        }
        div:nth-child(4) {
          margin: auto;
@@ -116,9 +120,38 @@ section {
           padding: 40px;
            float: right;
            width: 600px;
+           border: 3px;
+           border-radius: 10%;
+           border-color: white;
+
+
          }
          div:nth-child(5) {
            margin: auto;
            padding: 40px;
             float: left;
           }
+          section:nth-child(6) {
+            background-color: gray;
+            margin: auto;
+            padding: 40px;
+            font-size: 20px;
+            line-height: 25px;
+            border-radius:3px;
+            border-color: white;
+            text-align: center;
+            height: 400px;
+          }
+          p:nth-child(4)
+           {
+            margin: auto;
+            padding: 40px;
+            border: 3px;
+            border-radius: 10%;
+            border-color: white;
+            text-align: center;
+            height: 400px;
+            float: right;
+
+           }
+        
