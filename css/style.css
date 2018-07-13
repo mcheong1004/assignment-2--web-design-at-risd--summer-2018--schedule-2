@@ -52,8 +52,10 @@ section:nth-child(2) {
     background-image: linear-gradient(rgb(131,205,169), rgb(1,5,5));
 }
 section:nth-child(3) {
-   background-image: url('../img/boarders-of-canada.jpg');
-
+   background-image: url('../img/dark-sky-star.jpg');
+   color: rgb(239, 255,247);
+    height: 500px;
+}
 }
 .container {
   display: flex; /* or inline-flex */
