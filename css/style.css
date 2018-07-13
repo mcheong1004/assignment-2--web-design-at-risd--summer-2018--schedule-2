@@ -1,5 +1,6 @@
 html {
    font-size: 30px;
+   background-color: black
 }
 
 body {
@@ -14,9 +15,8 @@ section {
   section:nth-child(1) {
      background-color: black;
      margin: auto;
-     padding: 200px
-
-
+     padding: 200px;
+     height: 500px;
   }
 
     h1{
@@ -33,30 +33,29 @@ section {
     h3{
       margin: 0;
       padding:0;
-      font-size: 15px;
+      font-size: 20px;
       text-align:justify;
     }
+
     div:nth-child(1) {
       margin: auto;
       padding: 20px;
-       float: left;
+      float: left;
+      line-height:40px
      }
-    div:nth-child(1) {
+    div:nth-child(2) {
       margin: auto;
       padding: 20px;
-       float: right;
+      float: left;
+      text-align: left;
      }
-     div:nth-child(2) {
-       margin: auto;
-        float: right;
-      }
 
 
 
   section:nth-child(2) {
      background-color: black;
      margin: auto;
-     padding: 20px;
+     padding: 40px;
      font-size: 30px;
      line-height: 35px;
      height: 500px;
@@ -66,7 +65,7 @@ section {
   section:nth-child(3) {
     background-color: black;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
     font-size: 20px;
     line-height: 25px;
   }
@@ -74,50 +73,51 @@ section {
     p:nth-child(1)
      {
       margin: auto;
-      padding: 20px;
+      padding: 40px;
        float: left;
        width: 600px;
+    
      }
-     div:nth-child(4) {
+     div:nth-child(3) {
        margin: auto;
-       padding: 20px;
+       padding: 40px;
         float: right;
       }
       section:nth-child(4) {
         background-color: black;
         margin: auto;
-        padding: 20px;
+        padding: 40px;
         font-size: 20px;
         line-height: 25px;
       }
       p:nth-child(2)
        {
         margin: auto;
-        padding: 20px;
+        padding: 40px;
          float: left;
          width: 600px;
        }
        div:nth-child(4) {
          margin: auto;
-         padding: 20px;
+         padding: 40px;
           float: right;
         }
         section:nth-child(5) {
           background-color: black;
           margin: auto;
-          padding: 20px;
+          padding: 40px;
           font-size: 20px;
           line-height: 25px;
         }
         p:nth-child(3)
          {
           margin: auto;
-          padding: 20px;
+          padding: 40px;
            float: right;
            width: 600px;
          }
          div:nth-child(5) {
            margin: auto;
-           padding: 20px;
+           padding: 40px;
             float: left;
           }
